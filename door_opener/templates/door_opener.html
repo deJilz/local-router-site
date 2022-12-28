@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="icon" type="image/png" href="../static/img/page_icon.png">
+        <link href = "../static/css/styles.css" rel = "stylesheet" type = "text/css">
+        <script src="../static/js/door_opener.js"></script>
+
+        <title>Garage Door Opener</title>
+            <meta name="page to open garage door" content="main page">
+        </head>
+    <body>
+        
+        <!-- TITLE BLOCK -->
+        <h1>
+            GDO
+        </h1>
+
+        <!-- CURRENT STATUS -->
+        <div id="id_doorStatusTbl">
+            <table>
+                <tr class="r" id="id_doorLabel">
+                    <tc>Door Status</tc>
+                </tr>
+                <!-- python serving or javascript tage that will dynamically check the status-->
+                <tr class="r" id="id_doorStatus">
+                    <tc>who knows</tc>
+                </tr>
+            </table>
+        </div>
+        <br>
+
+        <!-- TOGGLE STATUS BUTTON -->
+        <BUTTON type="BUTTON" id="btn_toggleDoor" autofocus> Toggle the Garage Door </button>
+
+        
+    </body>
+</html>

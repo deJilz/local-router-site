@@ -1,0 +1,49 @@
+/*
+ == CSS HEADERS ==
+#		for ids
+.		for class
+nothing	for normal tags
+*/
+
+/* footer styling */
+.site-footer {
+	font-size: 12px;
+	text-align: center;
+}
+.site-footer ul {
+	font-size: 18px;
+	line-height: 1.45;
+	font-weight: var(--weight-font);
+	display: inline;
+	text-align: center;
+	font-family: "Nunito", "Helvetica Neue", "Helvetica", sans-serif;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	color: #556680;
+	color:#737373;
+}
+.site-footer li {
+	display: inline;
+	padding-right: 16px;
+	padding-left: 16px;
+}
+
+body { /* Background color */
+  background-color: rgb(255, 194, 102);
+}
+h1 { /* united header formatting */
+	padding-left: 14%;
+	padding-top: 40px;
+	padding-bottom: 5px;
+}
+p { /* united paragraph formatting */
+	text-align: left;
+	color: black;
+	font-family: "Nunito", "Helvetica Neue", "Helvetica", sans-serif;
+	font-size: 16px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 12%;
+	padding-left: 12%;
+}
+

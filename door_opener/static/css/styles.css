@@ -1,0 +1,30 @@
+/*
+    Connor DeJohn
+    Description: Style sheet for the main door opener page
+    Repo Link: 
+*/
+
+body {
+    zoom: 200%;
+    text-align: center;
+    background-color: black;
+    color: rgb(65, 180, 12);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#id_doorStatusTbl {
+    border: 1px solid;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+button {
+    width: 400px;
+    height: 200px;
+    padding: 5px;
+}
